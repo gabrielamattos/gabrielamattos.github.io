@@ -15,14 +15,18 @@
     GENERAL STYLES
 ==================================================*/
 
+@font-face {
+     font-family: geosanslight;
+     src: url('../fonts/GeosansLight.ttf');
+}
+
 body {
-    font-size:14px;
-   
-   
+    font-size:14px; 
+    background: #F3F3F0;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family:'Open Sans', sans-serif;
+    font-family:geosanslight, sans-serif;
 
 }
 h4 {
@@ -50,7 +54,7 @@ section {
 }
 
 .form-control {
-        background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(51, 16, 92, 0);
 }
 /* ===========================================================
    NAVBAR CHANGES   
@@ -60,21 +64,22 @@ section {
 }
 
 .navbar-inverse {
-background: #fff;
+background: #EDECE6;
 min-height: 60px;
 padding-top: 5px;
 
 }
 
 .navbar-inverse .navbar-nav > .active > a {
-	background: #ffffff;
+	background: #EDECE6;
 }
 
 .navbar-inverse .navbar-brand {
-	color: #000;
+	color: #4E2F39;
+   	font-family:geosanslight, sans-serif;
 	font-weight: bolder;
 	font-size: 25px;
-    font-weight:900;
+    	font-weight:900;
 	letter-spacing: 2px;
 }
 .navbar-inverse :hover .navbar-brand:hover {
@@ -84,10 +89,10 @@ padding-top: 5px;
 color: #000;
 }
 .navbar-inverse {
-border-color: #D6D6D6;
+border-color: #EDECE6;
 }
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-border-color: #000;
+border-color: #EDECE6;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
@@ -106,7 +111,7 @@ color: #000;
 #home-sec { 
   
     
-background: url(../img/home.jpg) no-repeat 50% 50%;
+background: #F3F3F0; /*url(../img/home1.png) no-repeat 50% 50%;*/
 background-attachment: fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -117,7 +122,8 @@ display: block;
 height: auto;
  padding-top:190px;
    min-height:500px;
-    color:#fff;
+    color:#4E2F39;
+   	font-family:geosanslight, sans-serif;
 }
 
 .head-main {
@@ -129,10 +135,11 @@ height: auto;
 }
 
 .head-last {
-     margin-top:70px;
+    margin-top:50px;
     font-size:25px ;
-    font-weight:900;
-    padding:5px 20px 20px 20px;
+    font-weight:800;
+    font-family:geosanslight, sans-serif;
+    padding:10px 20px 20px 20px;
     padding:5px;
 }
 
@@ -153,20 +160,62 @@ height: auto;
     min-height:40px;
 }
 
-/* ===========================================================
-    INTRO /ABOUT 
-   ============================================================*/
-.panel-title-adjust{
-font-size: 20px;
-padding: 5px;
+.progress-bar-success {
+    background-color: #A76558;
 }
 
-    .panel-title-adjust a:hover {
-        text-decoration:none;
-    }
+.progress-bar-warning {
+    background-color: #AD6F63;
+}
+
+.progress-bar-danger {
+    background-color: #B98379;
+}
+
+.progress-bar-primary {
+    background-color: #BF8E84;
+}
+
+/* ===========================================================
+    PANELS AND BOTTON RESUME
+   ============================================================*/
+.panel-title-adjust{
+	font-size: 20px;
+	padding: 5px;
+}
+.panel-title-adjust a:hover {
+	text-decoration:none;
+}
 .panel-title-adjust i {
         padding-right:5px;
-    }
+}
+.panel-heading {
+	border: none;
+
+}
+.panel-default1 > .panel-heading {
+	color: #FFFFFF;
+	background-color: #4E2F39;
+	border: none;
+}
+
+.panel-default2 > .panel-heading {
+	color: #FFFFFF;
+	background-color: #785C52;
+	border: none;
+}
+
+.panel-default3 > .panel-heading {
+	color: #FFFFFF;
+	background-color: #C0ABA1;
+	border: none;
+}
+
+.btn-resume {
+	color: #FFFFFF;
+	background-color: #4E2F39;
+	border: none;
+}
 /*=======================================
     TESTIMONIAL STYLES
 ==================================================*/
@@ -201,7 +250,7 @@ padding: 15px;
 #testimonial { 
   
     
-background: url(../img/home.jpg) no-repeat 50% 50%;
+background: /*url(../img/home.jpg) no-repeat 50% 50%;*/
 background-attachment: fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -282,7 +331,7 @@ border: 1px solid #e1e1e1;
 
 
 #footer {
-background-color: #FFFFFF;
+background-color: #EDECE6;
 color: #000;
 padding: 20px 50px 20px 50px;
 text-align: right;
