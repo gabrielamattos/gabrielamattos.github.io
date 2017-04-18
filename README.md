@@ -1,3 +1,3 @@
 # Site pessoal Gabriela Mattos
 
-Em construção!
+Primeira versão disponível com as seções: sobre e redes sociais.
