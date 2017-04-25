@@ -45,7 +45,7 @@ section {
     background-color: rgba(51, 16, 92, 0);
 }
 
-a:link, a:visited {
+a:link {
 	text-decoration: none
 	color: #ffe;
 	}
