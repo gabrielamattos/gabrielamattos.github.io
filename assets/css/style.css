@@ -45,8 +45,7 @@ section {
     background-color: rgba(51, 16, 92, 0);
 }
 
-a:link {
-	text-decoration: none;
+a {
 	color: #aaa;
 	}
 a:hover {
